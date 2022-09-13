@@ -27,3 +27,92 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+#####################
+# AWS CLI credential blobs
+#####################
+.aws/credentials
+aws/credentials
+homefolder/aws/credentials
+
+#####################
+# Private RSA SSH keys
+#####################
+/ssh/id_rsa
+/.ssh/personal_rsa
+/config/server_rsa
+id_rsa
+.id_rsa
+
+#####################
+# Private DSA SSH keys
+#####################
+/ssh/id_dsa
+/.ssh/personal_dsa
+/config/server_dsa
+id_dsa
+.id_dsa
+
+#####################
+# Private ed25519 SSH keys
+#####################
+/ssh/id_ed25519
+/.ssh/personal_ed25519
+/config/server_ed25519
+id_ed25519
+.id_ed25519
+
+#####################
+# Private ECDSA SSH keys
+#####################
+/ssh/id_ecdsa
+/.ssh/personal_ecdsa
+/config/server_ecdsa
+id_ecdsa
+.id_ecdsa
+
+#####################
+# Any file with .pem or .key extensions
+#####################
+*.pem
+*.key
+
+#####################
+# Any file ending with _history or .history extension
+#####################
+*.history
+*_history
